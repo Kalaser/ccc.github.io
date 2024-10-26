@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Knowledge Base</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
 </head>
 <body>
     <header>
@@ -25,9 +26,11 @@
             This browser does not support PDFs. Please download the PDF to view it: <a href="documents/math.pdf">Download PDF</a>
         </iframe>
         <a href="documents/math.pdf" target="_blank">Download PDF Document</a>
+        <canvas id="pdf-canvas"></canvas>
     </main>
     <footer>
         <p>&copy; 2024 My Knowledge Base</p>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
