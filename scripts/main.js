@@ -2,7 +2,8 @@
 var url = 'documents/math.pdf';
 
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
+// 更新Worker脚本的路径
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@latest/build/pdf.worker.js';
 
 var loadingTask = pdfjsLib.getDocument(url);
 loadingTask.promise.then(function(pdf) {
