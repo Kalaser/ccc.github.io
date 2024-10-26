@@ -1,5 +1,5 @@
 // 使用PDF.js来加载和显示PDF文档
-var url = 'documents/your-file.pdf';
+var url = 'documents/math.pdf';
 
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
