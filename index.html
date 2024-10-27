@@ -44,6 +44,12 @@
             bottom: 0;
             width: 100%;
         }
+        img {
+            display: block; /* 使图片成为块级元素 */
+            margin: 20px auto; /* 上下外边距 20px，左右自动居中 */
+            max-width: 100%; /* 确保图片不超过容器宽度 */
+            height: auto; /* 保持图片的宽高比 */
+        }
     </style>
 </head>
 <body>
@@ -66,9 +72,9 @@
         <h2>Overview</h2>
         <p>This is a collection of knowledge on various topics. Click the links above to explore!</p>
         <img src="image/test1.jpeg" alt="test Image" width="500" height="300">
-        <a href="documents/math.pdf" target="_blank">Download PDF Document</a>
         <h2>Documents</h2>
         <p>You can view the PDF document below:</p>
+        <a href="documents/math.pdf" target="_blank">Download PDF Document</a>
         <canvas id="pdf-canvas" style="border: 1px solid black;"></canvas> 
     </main>
 
