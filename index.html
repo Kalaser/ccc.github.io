@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Knowledge Base</title>
+    <title>My Math Knowledge Base</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/pdfjs-dist@latest/build/pdf.js"></script>
     <style>
@@ -54,17 +54,17 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Knowledge Base</h1>
+        <h1>Welcome to My Math Knowledge Base</h1>
         <nav>
-            <a href="#about">About me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact information</a>
+            <a href="#analysis">数学分析</a>
+            <a href="#algebra">高等代数</a>
+            <a href="#geometry">解析几何</a>
         </nav>
         <nav>
             <ul>
-                <li><a href="Topics/topic1.html">Topic 1</a></li>
-                <li><a href="Topics/topic2.html">Topic 2</a></li>
-                <li><a href="Topics/topic3.html">Topic 3</a></li>
+                <li><a href="Topics/topic1.html">复变函数</a></li>
+                <li><a href="Topics/topic2.html">实变函数</a></li>
+                <li><a href="Topics/topic3.html">泛函分析</a></li>
             </ul>
         </nav>
     </header>
@@ -77,24 +77,36 @@
         <a href="documents/math.pdf" target="_blank">Download PDF Document</a>
     </main>
 
-    <section id="about">
-        <h2>About me</h2>
-        <p>Hello! I am a student with a passion for information and computer science and mathematical analysis</p>
+    <section id="analysis">
+        <h2>数学分析</h2>
+        <p>数学分析学，也称分析数学、分析学或解析学（英语：Mathematical Analysis），是普遍存在于大学数学专业的一门基础课程。
+            大致与非数学专业学生所学的高等数学课程内容相近，但内容更加深入，一般指以微积分学、无穷级数和解析函数等的一般理论为主要内容，
+            并包括它们的理论基础的一个较为完整的数学学科。数学分析研究的内容包括实数、复数、实函数及复变函数。数学分析是由微积分演进而来，在微积分发展至现代阶段中，从应用中的方法总结升华为一类综合性分析方法，
+            且初等微积分中也包括许多数学分析的基础概念及技巧，可以认为这些应用方法是高等微积分生成的前提。数学分析的方式和其几何有关，不过只要任一数学空间有定义邻域（拓扑空间）或是有针对两对象距离的定义（度量空间），
+            就可以用数学分析的方式进行分析。</p>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
+    <section id="algebra">
+        <h2>高等代数</h2>
         <ul>
-            <li>item 1：Describe the content and purpose of item 1</li>
-            <li>item 2：Describe the content and purpose of item 2</li>
-            <li>item 3：Describe the content and purpose of item 3</li>
+            <p>代数是一个较为基础的数学分支。它的研究对象有许多。诸如数、数量、代数式、关系、方程理论、代数结构等等都是代数学的研究对象。
+初等代数一般在中学时讲授，介绍代数的基本思想：研究当我们对数字作加法或乘法时会发生什么，以及了解变量的概念和如何建立多项式并找出它们的根。
+代数的研究对象不仅是数字，还有各种抽象化的结构。例如整数集作为一个带有加法、乘法和序关系的集合就是一个代数结构。在其中我们只关心各种关系及其性质，
+                而对于“数本身是什么”这样的问题并不关心。常见的代数结构类型有群、环、域、模、线性空间等。</p>
+            <li>历史：代数的起源可以追溯到古巴比伦的时代[1]，当时的人们发展出了较之前更进步的算术系统，使其能以代数的方法来做计算。经由此系统的被使用，
+                他们能够列出含有未知数的方程并求解，这些问题在今日一般是使用线性方程、二次方程和不定线性方程等方法来解答的。相对地，这一时期大多数的埃及人及公元前1世纪大多数的印度、希腊和中国等数学家则一般是以几何方法来解答此类问题的，
+                如在《莱因德数学纸草书》、《绳法经》、《几何原本》及《九章算术》等书中所描述的一般。</li>
+            <li>分类：初等代数、抽象代数、线性代数、泛代数</li>
+            <li>抽象代数：抽象代数将基本代数和数的算术中的一些相似概念延广成更一般的概念。</li>
         </ul>
     </section>
-    <section id="contact">
-        <h2>Contact information</h2>
-        <p>You can contact me in the following ways：</p>
+    <section id="geometry">
+        <h2>解析几何</h2>
+        <p>解析几何（英语：Analytic geometry），又称为坐标几何（英语：Coordinate geometry）或卡氏几何（英语：Cartesian geometry），早先被叫作笛卡尔几何，
+            是一种借助于解析式进行图形研究的几何学分支。解析几何通常使用二维的平面直角坐标系研究直线、圆、圆锥曲线、摆线、星形线等各种一般平面曲线，
+            使用三维的空间直角坐标系来研究平面、球等各种一般空间曲面，同时研究它们的方程，并定义一些图形的概念和参数。</p>
         <ul>
-            <li>mailbox: 1297926673@example.com</li>
-            <li>telephone: 19024855678</li>
+            <li>基本理论: 坐标、曲线方程、距离和角度、变化、交集、截距</li>
+            <li>现代解析几何: 解析簇(analytic variety)定义为几个解析函数的共同解集。类似与实数与复数的代数簇。任何复流形都是一种解析簇。由于解析簇可能有奇点，但不是所有解析簇都是复数。.</li>
         </ul>
     </section>
     <footer>
